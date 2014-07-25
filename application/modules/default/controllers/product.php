@@ -19,6 +19,11 @@ class product extends CI_Controller
         $this->load->view("layout/layout", $data);
         
     }
+    public function detailproduct(){
+    	$data['template'] = 'product/detailproduct';
+    	
+    	$this->load->view("layout/layout", $data);
+    }
 
    
 
