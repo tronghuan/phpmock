@@ -24,10 +24,9 @@
 				</div>
 			</div>
 			<div class="details_big_box">
-				<div class="product_title_big">My Cinema-U3000/DVBT, USB 2.0 TV BOX
-					External, White</div>
+				<div class="product_title_big">My Cinema-U3000/DVBT, USB 2.0 TV BOX External, White</div>
 				<div class="specifications">
-					Disponibilitate: <span class="blue">In stoc</span><br /> Garantie:
+				Disponibilitate: <span class="blue">In stoc</span><br /> Garantie:
 					<span class="blue">24 luni</span><br /> Tip transport: <span
 						class="blue">Mic</span><br /> Pretul include <span class="blue">TVA</span><br />
 				</div>
@@ -41,15 +40,29 @@
 		<div class="bottom_prod_box_big"></div>
 	</div>
 	<div id="comment">
-		<form method="post" action="http://">
+		<form method="post" action="">
 			<label for="name">Name</label>
-			<input type="text" name="name" id="name" placeholder="Nhập tên của bạn vào" /><br />
+			<input type="text" name="name" id="name" class="placeholder" placeholder="Nhập tên của bạn vào" /><br />
 			<label for="email">Email</label>
-			<input type="text" name="email" id="email" placeholder="Nhập địa chỉ email vào" /><br/>
-			<textarea name="comments" cols="50" rows="10" class="html-text-box">Enter your comments here...</textarea>
+			<input type="text" name="email" id="email" class="placeholder" placeholder="Nhập địa chỉ email vào" /><br/>
+			<textarea name="comments" cols="50" rows="10" class="placeholder"></textarea>
 			<br>
-			<input type="submit" value="Submit" class="html-text-box">
-			<input type="reset" value="Reset" class="html-text-box">
+			<div id="nutbam">
+				<input type="submit" value="" id="submit" class="button">
+				<input type="reset" value="" id="reset" class="button">
+			</div>
 		</form>
+	</div>
+	
+	<div id="post-comment">
+		<div id="author">
+			<span>Long</span>
+		</div>
+		<div id="post-content">
+			<p>Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. 
+			Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. 
+			Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. 
+			Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. Gia ca tuong doi hop ly. </p>
+		</div>
 	</div>
 </div>

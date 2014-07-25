@@ -481,6 +481,7 @@ a.join {
 	width: 585px;
 	float: left;
 	padding: 5px 10px;
+	margin-bottom: 30px;
 }
 
 .center_title_bar {
@@ -714,24 +715,58 @@ span.blue {
 }
 
 /*---------------Phần comment------------------*/
-textarea.html-text-box {
-	background-color: #ffffff;
-	background-image: url(http://);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border-width: 1;
-	border-style: solid;
-	border-color: #cccccc;
-	font-family: Arial;
-	font-size: 8pt;
-	color: #000000;
+#comment{
+
 }
 
-input.html-text-box {
-	background-color: #ffffff;
-	font-family: Arial;
-	font-size: 8pt;
-	color: #000000;
+#comment label {
+	display: none;
+}
+
+.placeholder{
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	color: #444;
+	width: 543px;
+}
+
+#nutbam{
+	margin-top: 7px;
+	margin-left: 15px;
+	margin-bottom: 12px;
+}
+.button{
+	width:70px;
+	height: 31px;
+	
+}
+#submit{
+	background: url("http://localhost/phpmock/public/images/submit_mini.jpg") no-repeat;
+	z-index: 10;
+}
+#reset{
+	background: url("http://localhost/phpmock/public/images/reset_mini.png") no-repeat;
+	z-index: 10;
+}
+
+#post-comment{
+	
+}
+
+#author{
+	padding-left: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#post-content{
+	padding-left: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: normal;
 }
 
 /*---------------contact_form------------------*/
