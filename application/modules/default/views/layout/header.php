@@ -4,6 +4,8 @@
 <title>Project Nhom 2</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="http://localhost/phpmock/public/style.css" />
+<script type="text/javascript" src="http://localhost/phpmock/js/windowopen.js"></script>
+<script type="text/javascript" src="http://localhost/phpmock/js/boxOver.js"></script>
 </head>
 <body>
 <div id="main_container">
